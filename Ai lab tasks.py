@@ -1,4 +1,4 @@
-"""
+
 #Activity 1
 
 n=input("enter a number")
@@ -7,13 +7,12 @@ if int(n)%2==0:
 else:
         print("the given number is an even number")
         
-
-"""
+        
+        
 from pip._vendor.distlib.compat import raw_input
 
-""" Activity 2
-"""
-"""
+
+ #Activity 2
 sum=0
 s=input("Enter an integer value...")
 n=int(s)
@@ -22,12 +21,9 @@ while n!=0:
     s=input("Enter an integer value...")
     n=int(s)
     print("Sum of given values is ",sum)
-"""
 
-"""Activity 3
-"""
 
-"""
+#Activity 3
 isPrime=True
 i=2
 n=int(input("enter a number"))
@@ -42,12 +38,9 @@ while i<n:
                     print("Number is Prime")
                 else:
                         print("Number is not Prime")
-"""
 
-"""#Activity 4
-"""
 
-"""
+#Activity 4
 summ = 4
 i = 0
 while i<=4:
@@ -56,34 +49,27 @@ while i<=4:
     summ=summ+n
     i=i+1
     print("sum is",summ)
-"""
 
-"""#Activity5
-"""
 
-"""
+#Activity5
 summation = 0
 i=1
 while i<=10:
     summation=summation+i
     i=i+1
     print("sum is", summation)
-"""
 
-"""#Activity 6
-"""
-"""
+
+#Activity 6
 name = input('What is your name? ')
 print('Hello ' + name)
 job = input('What is your job? ')
 print('Your job is ' + job)
 num = input('Give me a number? ') 
 print('You said: ' + str(num))
-"""
 
-"""#ACtivity 7
-"""
 
+#Activity 7
 import random
 
 MINIMUM = 1
